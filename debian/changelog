@@ -1,7 +1,0 @@
-ros-hydro-jpeg-streamer (0.2.0-0quantal) quantal; urgency=high
-
-  * Converted jpeg_streamer to catkin
-
- -- Ken Tossell <ken@tossell.net>  Fri, 02 Aug 2013 07:00:00 -0000
-
-
