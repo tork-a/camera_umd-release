@@ -1,0 +1,12 @@
+Source: ros-hydro-uvc-camera
+Section: misc
+Priority: extra
+Maintainer: Ken Tossell <ken@tossell.net>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-camera-info-manager, ros-hydro-catkin, ros-hydro-image-transport, ros-hydro-nodelet, ros-hydro-roscpp, ros-hydro-sensor-msgs
+Homepage: http://ros.org/wiki/uvc_camera
+Standards-Version: 3.9.2
+
+Package: ros-hydro-uvc-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-camera-info-manager, ros-hydro-image-transport, ros-hydro-nodelet, ros-hydro-roscpp, ros-hydro-sensor-msgs
+Description: A collection of node(let)s that stream images from USB cameras (UVC) and provide CameraInfo messages to consumers. Includes a two-camera node that provides rough synchronization for stereo vision. Currently uses the base driver from Morgan Quigley's uvc_cam package.
