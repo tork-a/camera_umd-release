@@ -1,0 +1,19 @@
+ros-indigo-camera-umd (0.2.2-0trusty) trusty; urgency=high
+
+
+
+ -- Ken Tossell <ken@tossell.net>  Tue, 24 Jun 2014 04:00:00 -0000
+
+ros-indigo-camera-umd (0.2.1-0trusty) trusty; urgency=high
+
+
+
+ -- Ken Tossell <ken@tossell.net>  Sun, 12 Jan 2014 05:00:00 -0000
+
+ros-indigo-camera-umd (0.2.0-0trusty) trusty; urgency=high
+
+  * Added camera_umd metapackage
+
+ -- Ken Tossell <ken@tossell.net>  Fri, 02 Aug 2013 04:00:00 -0000
+
+
