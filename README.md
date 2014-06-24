@@ -1,3 +1,27 @@
+## camera_umd (hydro) - 0.2.2-0
+
+The packages in the `camera_umd` repository were released into the `hydro` distro by running `/usr/bin/bloom-release -t hydro --ros-distro hydro camera_umd` on `Tue, 24 Jun 2014 19:34:44 -0000`
+
+These packages were released:
+- `camera_umd`
+- `jpeg_streamer`
+- `uvc_camera`
+
+Version of package(s) in repository `camera_umd`:
+- upstream repository: https://github.com/ktossell/camera_umd.git
+- release repository: https://github.com/ktossell/camera_umd-release.git
+- rosdistro version: `0.2.1-0`
+- old version: `0.2.1-0`
+- new version: `0.2.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.10`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.31`
+
+
 ## camera_umd - 0.2.1-0
 
 User `ken@kcore.int80k.com` released the packages in the `camera_umd` repository by running `/usr/bin/bloom-release camera_umd --track hydro --rosdistro hydro` on `Sun, 12 Jan 2014 11:45:30 -0000`
