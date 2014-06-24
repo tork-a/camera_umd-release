@@ -1,0 +1,23 @@
+ros-indigo-uvc-camera (0.2.2-1trusty) trusty; urgency=high
+
+  * Print warnings instead of crashing when camera features are unavailable.
+  * Support V4L drivers that need user-writable mmap regions (e.g., bttv).
+  * Fixed nodelet names in the launch files.
+  * Added camera_name parameter, sent to camera_info_manager.
+  * Contributors: James Sarrett, Ken Tossell
+
+ -- Ken Tossell <ken@tossell.net>  Tue, 24 Jun 2014 04:00:00 -0000
+
+ros-indigo-uvc-camera (0.2.1-1trusty) trusty; urgency=high
+
+  * Added install rule for nodelet_uvc_camera.xml
+
+ -- Ken Tossell <ken@tossell.net>  Sun, 12 Jan 2014 05:00:00 -0000
+
+ros-indigo-uvc-camera (0.2.0-1trusty) trusty; urgency=high
+
+  * Converted uvc_camera to catkin
+
+ -- Ken Tossell <ken@tossell.net>  Fri, 02 Aug 2013 04:00:00 -0000
+
+
