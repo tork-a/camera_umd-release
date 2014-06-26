@@ -1,0 +1,12 @@
+Source: ros-indigo-uvc-camera
+Section: misc
+Priority: extra
+Maintainer: Ken Tossell <ken@tossell.net>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-camera-info-manager, ros-indigo-catkin, ros-indigo-image-transport, ros-indigo-nodelet, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Homepage: http://ros.org/wiki/uvc_camera
+Standards-Version: 3.9.2
+
+Package: ros-indigo-uvc-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-camera-info-manager, ros-indigo-image-transport, ros-indigo-nodelet, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Description: A collection of node(let)s that stream images from USB cameras (UVC) and provide CameraInfo messages to consumers. Includes a two-camera node that provides rough synchronization for stereo vision. Currently uses the base driver from Morgan Quigley's uvc_cam package.
