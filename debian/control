@@ -1,0 +1,12 @@
+Source: ros-hydro-camera-umd
+Section: misc
+Priority: extra
+Maintainer: Ken Tossell <ken@tossell.net>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-camera-umd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-jpeg-streamer, ros-hydro-uvc-camera
+Description: UMD camera metapackage
