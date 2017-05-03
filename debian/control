@@ -1,0 +1,12 @@
+Source: ros-kinetic-camera-umd
+Section: misc
+Priority: extra
+Maintainer: Ken Tossell <ken@tossell.net>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-camera-umd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-jpeg-streamer, ros-kinetic-uvc-camera
+Description: UMD camera metapackage
