@@ -1,0 +1,38 @@
+ros-kinetic-uvc-camera (0.2.4-0xenial) xenial; urgency=high
+
+  * Added new parameters: auto_focus (bool), focus_absolute (int), auto_exposure (bool),
+    exposure_absolute (int), power_line_frequency (int: 0/50/60)
+  * Contributors: Andreas Bihlmaier
+
+ -- Ken Tossell <ken@tossell.net>  Sat, 28 Jun 2014 15:00:00 -0000
+
+ros-kinetic-uvc-camera (0.2.3-0xenial) xenial; urgency=high
+
+  * Disabled hardcoded default parameters.
+  * Contributors: Ken Tossell
+
+ -- Ken Tossell <ken@tossell.net>  Wed, 25 Jun 2014 15:00:00 -0000
+
+ros-kinetic-uvc-camera (0.2.2-0xenial) xenial; urgency=high
+
+  * Print warnings instead of crashing when camera features are unavailable.
+  * Support V4L drivers that need user-writable mmap regions (e.g., bttv).
+  * Fixed nodelet names in the launch files.
+  * Added camera_name parameter, sent to camera_info_manager.
+  * Contributors: James Sarrett, Ken Tossell
+
+ -- Ken Tossell <ken@tossell.net>  Mon, 23 Jun 2014 15:00:00 -0000
+
+ros-kinetic-uvc-camera (0.2.1-0xenial) xenial; urgency=high
+
+  * Added install rule for nodelet_uvc_camera.xml
+
+ -- Ken Tossell <ken@tossell.net>  Sat, 11 Jan 2014 15:00:00 -0000
+
+ros-kinetic-uvc-camera (0.2.0-0xenial) xenial; urgency=high
+
+  * Converted uvc_camera to catkin
+
+ -- Ken Tossell <ken@tossell.net>  Thu, 01 Aug 2013 15:00:00 -0000
+
+
