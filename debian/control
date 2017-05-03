@@ -1,0 +1,13 @@
+Source: ros-jade-uvc-camera
+Section: misc
+Priority: extra
+Maintainer: Ken Tossell <ken@tossell.net>
+Build-Depends: debhelper (>= 9.0.0), libv4l-dev, ros-jade-camera-info-manager, ros-jade-catkin, ros-jade-image-transport, ros-jade-nodelet, ros-jade-roscpp, ros-jade-sensor-msgs
+Homepage: http://ros.org/wiki/uvc_camera
+Standards-Version: 3.9.2
+
+Package: ros-jade-uvc-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libv4l-dev, ros-jade-camera-info-manager, ros-jade-image-transport, ros-jade-nodelet, ros-jade-roscpp, ros-jade-sensor-msgs
+Description: A collection of node(let)s that stream images from USB cameras (UVC) and provide CameraInfo messages to consumers.
+ Includes a two-camera node that provides rough synchronization for stereo vision. Currently uses the base driver from Morgan Quigley's uvc_cam package.
