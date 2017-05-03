@@ -1,0 +1,31 @@
+ros-kinetic-jpeg-streamer (0.2.4-0jessie) jessie; urgency=high
+
+
+
+ -- Ken Tossell <ken@tossell.net>  Sat, 28 Jun 2014 15:00:00 -0000
+
+ros-kinetic-jpeg-streamer (0.2.3-0jessie) jessie; urgency=high
+
+
+
+ -- Ken Tossell <ken@tossell.net>  Wed, 25 Jun 2014 15:00:00 -0000
+
+ros-kinetic-jpeg-streamer (0.2.2-0jessie) jessie; urgency=high
+
+
+
+ -- Ken Tossell <ken@tossell.net>  Mon, 23 Jun 2014 15:00:00 -0000
+
+ros-kinetic-jpeg-streamer (0.2.1-0jessie) jessie; urgency=high
+
+
+
+ -- Ken Tossell <ken@tossell.net>  Sat, 11 Jan 2014 15:00:00 -0000
+
+ros-kinetic-jpeg-streamer (0.2.0-0jessie) jessie; urgency=high
+
+  * Converted jpeg_streamer to catkin
+
+ -- Ken Tossell <ken@tossell.net>  Thu, 01 Aug 2013 15:00:00 -0000
+
+
