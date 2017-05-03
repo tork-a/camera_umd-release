@@ -1,0 +1,12 @@
+Source: ros-lunar-camera-umd
+Section: misc
+Priority: extra
+Maintainer: Ken Tossell <ken@tossell.net>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-camera-umd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-jpeg-streamer, ros-lunar-uvc-camera
+Description: UMD camera metapackage
