@@ -1,3 +1,29 @@
+## camera_umd (jade) - 0.2.4-0
+
+The packages in the `camera_umd` repository were released into the `jade` distro by running `/usr/bin/bloom-release camera_umd --track jade --ros-distro jade` on `Wed, 03 May 2017 02:31:28 -0000`
+
+These packages were released:
+- `camera_umd`
+- `jpeg_streamer`
+- `uvc_camera`
+
+Version of package(s) in repository `camera_umd`:
+
+- upstream repository: https://github.com/ktossell/camera_umd.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.4-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## camera_umd (indigo) - 0.2.4-0
 
 The packages in the `camera_umd` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -t indigo -r indigo camera_umd` on `Sun, 29 Jun 2014 16:37:53 -0000`
